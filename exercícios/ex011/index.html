@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Teste para tamanho de imagens em diferentes dispositivos.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto grande">
+    </picture>
+    <h1>Reproduzir áudios</h1>
+    <p>Aprendendo a reproduzir áudios em HTML5</p>
+    <ul>
+    <li>
+        <audio preload="metadata" controls>
+            <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+            <source src="midia/happy-mistake.ogg" type="audio/ogg">
+            <source src="midia/happy-mistake.wav" type="audio/wav">
+    </li>
+    <li>
+        <audio preload="metadata" controls>
+            <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        </audio>
+    </li>
+    </ul>
+    </audio>
+
+    <p>Seu computador não tem compatilidade com reprodução de áudio. Para baixar:
+        <ul>
+            <li><a download="guanacast-33.mp3" href="midia/guanacast-33.mp3" type="audio/mpeg">Guanacast</a></li>
+            <li><a download="happy-mistake.mp3" href="midia/happy-mistake.mp3">Happy Mistake</a></li>
+        </ul>
+    </p>
+</body>
+</html>

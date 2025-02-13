@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando pseudo-classes</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            background-color: burlywood ;
+            color: white;
+            border: 1px solid rgb(80, 53, 19);
+            
+        }
+
+        div:hover {
+            color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo-classe hover</h1>
+    <hr>   
+    <div>Testando a pseudo-classe hover
+        <p>TEXTO ESCONDIDO DE EXEMPLO</p>
+    </div>
+    <p>Fim do meu teste</p>
+</body>
+</html>

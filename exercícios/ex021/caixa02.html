@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            background-color: #bfac95cb;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0px
+        }
+
+        header {
+            background-color: #8C6B42;
+            color: #F2E1C2;
+            text-align: center;
+            margin: 16px 16px 16px 16px;
+            border: 10px solid #8C6B42;
+
+        }
+
+        h1 {
+            font-size: 60px;
+        }
+
+        nav {
+            border: 2px solid #F2E1C2;
+            margin: auto;
+            background-color: #F2E1C2;
+            box-shadow: 3px 2px 7px -2px rgba(0, 0, 0, 0.534);
+            border-radius: 20px;
+        }
+
+        nav > a {
+            padding: 20px;
+            text-decoration: none;
+            color: black;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        nav > a:active {
+            color: #428C7F;
+        }
+
+        article {
+            background-color: #F2E1C2;
+            padding: 15px;
+            border-radius: 0px 20px;
+            box-shadow: 2px 2px 11px -5px rgba(0, 0, 0, 0.534);
+        }
+
+        article > aside {
+            background-color: #8c6b4f79;
+            text-indent: 15px;
+            border-radius: 0px 20px;
+
+        }
+
+        article > h2 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        article > p {
+            text-indent: 10px;
+        }
+
+        footer {
+            background-color: #594031;
+            color: beige;
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        p > a {
+            color: white;
+            text-decoration: none;
+        }
+
+        p > a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        p > a:active {
+            color: #428C7F;
+        }
+
+        main {
+            margin: 0px 16px 0px 16px;
+        }
+
+        section#noticias {
+            margin: 16px 0px 16px 0px;
+        }
+
+        div#bola {
+            height: 200px;
+            width: 200px;
+            background-color: white;
+            margin: 16px 0px 0px 16px;
+            border-radius: 100%
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Brasil</a>
+            <a href="#">Mundo</a>
+            <a href="#">Futebol</a>
+            <a href="#">Outros</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Notícias em tempo real</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo suscipit nihil fuga adipisci architecto, reprehenderit libero repellendus ea totam? Maiores doloribus optio rem dicta ad repellendus! Quia illo in nisi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus reprehenderit quas rem odio fugiat, doloribus sequi asperiores tempora ab voluptatem aut quae fuga velit quo eos assumenda soluta incidunt nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio maxime accusamus nostrum, voluptates facere sint dolores? Ad perspiciatis aliquid a. Eaque quis maxime saepe molestias, alias officia explicabo vel iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta culpa ad delectus vitae dolorem? Dolorum atque reprehenderit consequatur ex magni fugiat unde ducimus reiciendis odit quod, ea quidem, accusamus maxime. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore praesentium doloremque, placeat deserunt veniam ut fuga atque hic, eos voluptate perspiciatis ipsam nihil sapiente! Nihil ullam corrupti labore explicabo qui?</p>
+                <aside>
+                    Notícia escrita por Rebeca Lima.
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Site desenvolvido por <a href="#">Rebeca Lima.</a></p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

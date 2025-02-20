@@ -96,6 +96,7 @@ section {
 
 .estrofe4 {
     background-image: url(imagens/background002.jpg);
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

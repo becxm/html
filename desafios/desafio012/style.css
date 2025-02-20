@@ -37,7 +37,7 @@ header > p {
 }
 
 p > a {
-    font-weight: bolder;
+    font-weight: normal;
     color: white;
     font-family: var(--fonte1);
     font-size: clamp(0.5em, 1em + 1vw, 1.2em);

@@ -9,9 +9,10 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
-        table{
+        table{ 
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -26,13 +27,23 @@
             padding: 15px;
         }
 
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
+        }
+
         td.num {
             text-align: right;
         }
 
         thead, tfoot {
-            background-color: rgb(112, 112, 112);
+            background-color: rgb(68, 68, 68);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: rgb(68, 68, 68);
         }
     </style>
 </head>
@@ -48,31 +59,38 @@
         <tbody>
             <tr>
                 <td>São Paulo</td>
-                <td class="num">45 973 190	</td>
+                <td class="num">45.973.90	</td>
             </tr>
             <tr>
                 <td>Minas Gerais</td>
-                <td class="num">21 322 692	</td>
+                <td class="num">21.322.692	</td>
             </tr>
             <tr>
                 <td>Rio de Janeiro</td>
-                <td class="num">17 219 679</td>
+                <td class="num">17.219.679</td>
             </tr>
             <tr>
                 <td>Bahia</td>
-                <td class="num">14 850 513</td>
+                <td class="num">14.850.513</td>
             </tr>
             <tr>
                 <td>Paraná</td>
-                <td class="num">11 824 665</td>
+                <td class="num">11.824.665</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
                 <th scope="row">Total de habitantes</th>
-                <td class="num"><strong>212 600 000</strong></td>
+                <td class="num"><strong>212.600.000</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt optio expedita ab quidem nihil, obcaecati, reiciendis omnis quis similique odio sit odit, eos sapiente autem amet praesentium qui esse suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, sapiente cum laborum voluptatibus dolorum exercitationem pariatur saepe perferendis ratione ipsam aspernatur numquam, porro quia ipsa quis. Reprehenderit rem at veniam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis nam quia libero exercitationem vitae animi possimus minus neque dolores facere voluptates nostrum eum, consequuntur sed doloribus similique ratione, quo laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quidem similique possimus, ipsam rerum odio exercitationem, neque magni sunt soluta, porro accusantium voluptatum at voluptates inventore maxime ad? Nobis, nihil.</p> 
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt optio expedita ab quidem nihil, obcaecati, reiciendis omnis quis similique odio sit odit, eos sapiente autem amet praesentium qui esse suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, sapiente cum laborum voluptatibus dolorum exercitationem pariatur saepe perferendis ratione ipsam aspernatur numquam, porro quia ipsa quis. Reprehenderit rem at veniam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis nam quia libero exercitationem vitae animi possimus minus neque dolores facere voluptates nostrum eum, consequuntur sed doloribus similique ratione, quo laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quidem similique possimus, ipsam rerum odio exercitationem, neque magni sunt soluta, porro accusantium voluptatum at voluptates inventore maxime ad? Nobis, nihil.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt optio expedita ab quidem nihil, obcaecati, reiciendis omnis quis similique odio sit odit, eos sapiente autem amet praesentium qui esse suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, sapiente cum laborum voluptatibus dolorum exercitationem pariatur saepe perferendis ratione ipsam aspernatur numquam, porro quia ipsa quis. Reprehenderit rem at veniam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis nam quia libero exercitationem vitae animi possimus minus neque dolores facere voluptates nostrum eum, consequuntur sed doloribus similique ratione, quo laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quidem similique possimus, ipsam rerum odio exercitationem, neque magni sunt soluta, porro accusantium voluptatum at voluptates inventore maxime ad? Nobis, nihil.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt optio expedita ab quidem nihil, obcaecati, reiciendis omnis quis similique odio sit odit, eos sapiente autem amet praesentium qui esse suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, sapiente cum laborum voluptatibus dolorum exercitationem pariatur saepe perferendis ratione ipsam aspernatur numquam, porro quia ipsa quis. Reprehenderit rem at veniam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis nam quia libero exercitationem vitae animi possimus minus neque dolores facere voluptates nostrum eum, consequuntur sed doloribus similique ratione, quo laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quidem similique possimus, ipsam rerum odio exercitationem, neque magni sunt soluta, porro accusantium voluptatum at voluptates inventore maxime ad? Nobis, nihil.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt optio expedita ab quidem nihil, obcaecati, reiciendis omnis quis similique odio sit odit, eos sapiente autem amet praesentium qui esse suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, sapiente cum laborum voluptatibus dolorum exercitationem pariatur saepe perferendis ratione ipsam aspernatur numquam, porro quia ipsa quis. Reprehenderit rem at veniam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis nam quia libero exercitationem vitae animi possimus minus neque dolores facere voluptates nostrum eum, consequuntur sed doloribus similique ratione, quo laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quidem similique possimus, ipsam rerum odio exercitationem, neque magni sunt soluta, porro accusantium voluptatum at voluptates inventore maxime ad? Nobis, nihil.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt optio expedita ab quidem nihil, obcaecati, reiciendis omnis quis similique odio sit odit, eos sapiente autem amet praesentium qui esse suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, sapiente cum laborum voluptatibus dolorum exercitationem pariatur saepe perferendis ratione ipsam aspernatur numquam, porro quia ipsa quis. Reprehenderit rem at veniam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis nam quia libero exercitationem vitae animi possimus minus neque dolores facere voluptates nostrum eum, consequuntur sed doloribus similique ratione, quo laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quidem similique possimus, ipsam rerum odio exercitationem, neque magni sunt soluta, porro accusantium voluptatum at voluptates inventore maxime ad? Nobis, nihil.</p>
+
 </body>
 </html>

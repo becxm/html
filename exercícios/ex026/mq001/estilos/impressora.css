@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+menu {
+    padding: 0px;
+    background-color: black;
+    display: none;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+li {
+    padding: 20px;
+    background-color: rgba(169, 169, 169, 0.329);
+    color: white;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+p {
+    text-indent: 10px;
+    width: 100%;
+    text-align: justify;
+    margin: auto;
+    line-height: 1.5em;   
+}
+
+article::after {
+    content: 'Site impresso pelo Curso em Vídeo.';
+}
